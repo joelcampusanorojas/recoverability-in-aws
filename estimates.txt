@@ -1,0 +1,2 @@
+The object of the RTO is mesure the time that the application is down (for any cause) and this time is not causing significant damage to the business. The RPO is the data loss for the application is down and the time for data recovery in the application. 
+For this architecture in AWS the Multi-AZ for Database not exists or is very close to 0 because the application save the data in the Zone 1 (N. Virginia) and the replica data in Zone 2 (Ohio) to ensure that the application is UP in any failover. 
